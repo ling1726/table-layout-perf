@@ -1,0 +1,31 @@
+
+table {
+  vertical-align: middle;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  table-layout: fixed;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: lightgray;
+}
+
+th {
+  position: relative;
+}
+
+.resizer {
+  border-right: 2px solid red;
+  height: 20px;
+  cursor:w-resize;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

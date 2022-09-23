@@ -1,0 +1,20 @@
+{
+  "name": "table-layout-perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:native": "vite ./native",
+    "dev:native-column-resize": "vite ./native-column-resize",
+    "dev:flex-column-resize": "vite ./flex-column-resize",
+    "dev:flex-column-resize-insertRule": "vite ./flex-column-resize-insertRule",
+    "dev:flex": "vite ./flex"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.3"
+  }
+}

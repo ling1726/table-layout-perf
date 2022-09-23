@@ -1,0 +1,33 @@
+
+table {
+  display: block;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  table-layout: fixed;
+}
+
+tr {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: lightgray;
+}
+
+tbody {
+  display: block;
+}
+
+thead {
+  display: block;
+}
+
+th, td {
+  display: flex;
+  flex: 1 1 0px;
+  min-width: 0px;
+  align-items: center;
+}

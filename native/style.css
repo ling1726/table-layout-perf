@@ -1,0 +1,16 @@
+
+table {
+  vertical-align: middle;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  table-layout: fixed;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: lightgray;
+}

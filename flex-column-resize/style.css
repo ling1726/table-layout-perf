@@ -1,0 +1,45 @@
+
+table {
+  display: block;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  table-layout: fixed;
+}
+
+tr {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: lightgray;
+}
+
+tbody {
+  display: block;
+}
+
+thead {
+  display: block;
+}
+
+th, td {
+  display: flex;
+  flex: 1 1 0px;
+  min-width: 0px;
+  align-items: center;
+  position: relative;
+}
+
+.resizer {
+  border-right: 2px solid red;
+  height: 20px;
+  cursor:w-resize;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
