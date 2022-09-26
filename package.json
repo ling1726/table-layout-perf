@@ -8,7 +8,8 @@
     "dev:native-column-resize": "vite ./native-column-resize",
     "dev:flex-column-resize": "vite ./flex-column-resize",
     "dev:flex-column-resize-insertRule": "vite ./flex-column-resize-insertRule",
-    "dev:flex": "vite ./flex"
+    "dev:flex": "vite ./flex",
+    "dev:block": "vite ./block"
   },
   "author": "",
   "license": "ISC",
